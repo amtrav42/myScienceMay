@@ -1,4 +1,6 @@
 import * as React from 'react';
+import Footer from '../components/footer/footer';
+import Faq from '../components/faq/faq';
 
 // styles
 
@@ -17,7 +19,10 @@ function IndexPage() {
       </header>
 
       <p>
-        A social media challenge from podcast and podcast
+        A social media challenge from
+        <em>Let&apos;s Talk Scicomm</em>
+        and
+        <em>Avid Research</em>
         to help you find connections and collaborations for your science
       </p>
       <p>
@@ -44,11 +49,9 @@ function IndexPage() {
         <h3>
           FAQs
         </h3>
-        <div>
-          accordion list
-        </div>
+        <Faq />
       </div>
-      <footer>Acknowledgement of counrtry</footer>
+      <Footer />
     </main>
   );
 }

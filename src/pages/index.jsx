@@ -18,8 +18,8 @@ function IndexPage() {
           #MyScienceMay
         </Heading>
         <Flex justify="center">
-          <Image src="/static/images/avidResearchLogo.png" alt="Avid Research Logo" boxSize={['120px', '150px', '200px']} fit="contain" margin={[3, 4, 5]} />
-          <Image src="/static/images/letsTalkScicommLogo.png" alt="Let's talk SciComm Logo" boxSize={['120px', '150px', '200px']} fit="contain" margin={[3, 4, 5]} />
+          <Image src="https://mysciencemay.s3.amazonaws.com/avidResearchLogo.png" alt="Avid Research Logo" boxSize={['120px', '150px', '200px']} fit="contain" margin={[3, 4, 5]} />
+          <Image src="https://mysciencemay.s3.amazonaws.com/letsTalkScicommLogo.png" alt="Let's talk SciComm Logo" boxSize={['120px', '150px', '200px']} fit="contain" margin={[3, 4, 5]} />
         </Flex>
       </header>
       <Text textAlign="center" m="5">
@@ -38,9 +38,12 @@ function IndexPage() {
         <Link href="https://twitter.com/LetsTalkSciComm" color="#00B2A9" m="3" fontWeight="bold">@LetsTalkSciComm</Link>
         <Link href="https://twitter.com/avid_podcast" color="#00B2A9" m="3" fontWeight="bold">@avid_podcast</Link>
       </Flex>
-      <Heading as="h3" textAlign="center" fontWeight="bold" fontSize="xl" p="5">
-        Schedule
-      </Heading>
+      <Flex justifyContent="center" align="center" direction="column">
+        <Heading as="h3" textAlign="center" fontWeight="bold" fontSize="xl" p="5">
+          Schedule
+        </Heading>
+        <Image src="https://mysciencemay.s3.amazonaws.com/MSM_Prompts.jpg" alt="List of prompts for SciComm September, see below for details" fit="contain" margin={[3, 4, 5]} boxSize={['300px', '400px', '500px']} />
+      </Flex>
       <ol>
         <li>
           Monday

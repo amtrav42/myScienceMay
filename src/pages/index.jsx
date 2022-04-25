@@ -15,37 +15,33 @@ function IndexPage() {
       <title>Home Page</title>
       <header>
 
-        <Heading as="h1" textAlign="center" fontSize={['xxl', '4xl', '7xl']} p={['2', '5']} background="linear-gradient(90deg, rgba(0,178,169,1) 28%, rgba(249,142,74,1) 73%)">
-          #MyScienceMay
-        </Heading>
         <Flex justify="center">
-          <Image src="https://mysciencemay.s3.amazonaws.com/avidResearchLogo.png" alt="Avid Research Logo" boxSize={['120px', '150px']} fit="contain" margin={[3, 4]} />
-          <Image src="https://mysciencemay.s3.amazonaws.com/letsTalkScicommLogo.png" alt="Let's talk SciComm Logo" boxSize={['120px', '150px']} fit="contain" margin={[3, 4]} />
+          <Image src="https://mysciencemay.s3.amazonaws.com/MSM_Prompts.jpg" alt="List of prompts for SciComm September, see below for details" fit="contain" margin={[3, 4, 5]} boxSize={['300px', '400px', '500px']} />
+
         </Flex>
       </header>
-      <Box backgroundColor="RGBA(0, 178, 169, .8)" p="5">
-        <Text textAlign="center" m="5">
+      <Box backgroundColor="RGBA(0, 178, 169, 1)" p="5">
+        <Text textAlign="center" m="5" color="white" fontSize="lg">
           A social media challenge from
-          <Link href="https://anchor.fm/letstalkscicomm" fontWeight="bold"> Let&apos;s Talk SciComm </Link>
+          <Link href="https://anchor.fm/letstalkscicomm" fontWeight="bold" target="_blank"> Let&apos;s Talk SciComm </Link>
           and
-          <Link href="https://avidresearch.com.au/" fontWeight="bold"> Avid Research   </Link>
+          <Link href="https://avidresearch.com.au/" fontWeight="bold" target="_blank"> Avid Research   </Link>
           to help you find connections and collaborations for your science
         </Text>
-        <Text textAlign="center" m="5">
+        <Text textAlign="center" m="5" color="white" fontSize="lg">
           Join us on Twitter with the
           <b> #MyScienceMay </b>
           hashtag
         </Text>
+        <Flex justify="center" direction={['column', 'row']} align="center">
+          <Link href="https://twitter.com/LetsTalkSciComm" color="white" m="3" fontWeight="bold" fontSize="2xl">@LetsTalkSciComm</Link>
+          <Link href="https://twitter.com/avid_podcast" color="white" m="3" fontWeight="bold" fontSize="2xl">@avid_podcast</Link>
+        </Flex>
       </Box>
-      <Flex justify="center" direction={['column', 'row']} align="center">
-        <Link href="https://twitter.com/LetsTalkSciComm" color="#00B2A9" m="3" fontWeight="bold">@LetsTalkSciComm</Link>
-        <Link href="https://twitter.com/avid_podcast" color="#00B2A9" m="3" fontWeight="bold">@avid_podcast</Link>
-      </Flex>
       <Flex justifyContent="center" align="center" direction="column">
         <Heading as="h3" textAlign="center" fontWeight="bold" fontSize="xl" p="5">
-          Schedule
+          Detailed Schedule
         </Heading>
-        <Image src="https://mysciencemay.s3.amazonaws.com/MSM_Prompts.jpg" alt="List of prompts for SciComm September, see below for details" fit="contain" margin={[3, 4, 5]} boxSize={['300px', '400px', '500px']} />
       </Flex>
       <Container border="solid 1px #00B2A9" borderRadius="5px">
         <Schedule />
@@ -58,6 +54,10 @@ function IndexPage() {
           <Faq />
         </Container>
       </div>
+      <Flex justify="center">
+        <Link href="https://avidresearch.com.au/" fontWeight="bold" target="_blank"><Image src="https://mysciencemay.s3.amazonaws.com/avidResearchLogo.png" alt="Avid Research Logo" boxSize={['120px', '150px']} fit="contain" margin={[3, 4]} /></Link>
+        <Link href="https://anchor.fm/letstalkscicomm" fontWeight="bold" target="_blank"><Image src="https://mysciencemay.s3.amazonaws.com/letsTalkScicommLogo.png" alt="Let's talk SciComm Logo" boxSize={['120px', '150px']} fit="contain" margin={[3, 4]} /></Link>
+      </Flex>
       <Footer />
     </main>
   );

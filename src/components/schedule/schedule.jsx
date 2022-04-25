@@ -6,25 +6,28 @@ import {
   AccordionPanel,
   AccordionIcon,
   Box,
+  Text,
+  Image,
 } from '@chakra-ui/react';
-import FaqData from '../../data/faq';
+import ScheduleData from '../../data/schedule';
 
-function Faq() {
+function Schedule() {
   return (
-    FaqData.map((faq) => (
+    ScheduleData.map((schedule) => (
       <Box>
         <Accordion allowToggle>
           <AccordionItem>
             <h2>
               <AccordionButton>
-                <Box flex="1" textAlign="left" fontWeight="bold">
-                  {faq.question}
-                </Box>
+                <Text flex="1" textAlign="left" fontWeight="bold">
+                  {`${schedule.day} the ${schedule.date} - ${schedule.title}`}
+                </Text>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel pb={2}>
-              {faq.answer}
+              {schedule.detail}
+              <Image src={schedule.imageURL} alt={schedule.imageAlt} boxSize={['180px', '250px']} fit="contain" margin={[3, 4]} />
             </AccordionPanel>
           </AccordionItem>
         </Accordion>
@@ -33,4 +36,4 @@ function Faq() {
   );
 }
 
-export default Faq;
+export default Schedule;

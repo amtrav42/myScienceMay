@@ -2,6 +2,7 @@ export default [
   {
     day: 'Monday',
     date: '2nd',
+    dataDate: '2022-05-02',
     title: 'Introductions',
     detail: 'Today is the day for introductions. Who are you? What do you do?',
     imageURL: 'https://mysciencemay.s3.amazonaws.com/MSM_Monday_1.jpg',
@@ -10,6 +11,7 @@ export default [
   {
     day: 'Wednesday',
     date: '4th',
+    dataDate: '2022-05-04',
     title: 'Favourite Undergraduate Subject',
     detail: 'What was your favourite subject as an Undergraduate? What did you enjoy about it?',
     imageURL: 'https://mysciencemay.s3.amazonaws.com/MSM_Wednesday_1.jpg',
@@ -18,6 +20,7 @@ export default [
   {
     day: 'Friday',
     date: '6th',
+    dataDate: '2022-05-06',
     title: 'Interesting Learning',
     detail: 'What is the most interesting thing you\'ve learned recently?',
     imageURL: 'https://mysciencemay.s3.amazonaws.com/MSM_Friday_1.jpg',
@@ -26,6 +29,7 @@ export default [
   {
     day: 'Monday',
     date: '9th',
+    dataDate: '2022-05-09',
     title: 'Current Collaborators',
     detail: 'Give a shoutout to a current collaborator. Who are they and what do they do awesomely?',
     imageURL: 'https://mysciencemay.s3.amazonaws.com/MSM_Monday_2.jpg',
@@ -34,6 +38,7 @@ export default [
   {
     day: 'Wednesday',
     date: '11th',
+    dataDate: '2022-05-11',
     title: 'Question for others',
     detail: 'What is something you\'d love to ask someone in a different field?',
     imageURL: 'https://mysciencemay.s3.amazonaws.com/MSM_Wednesday_2.jpg',
@@ -42,6 +47,7 @@ export default [
   {
     day: 'Friday',
     date: '13th',
+    dataDate: '2022-05-13',
     title: 'STEM Superpower',
     detail: 'What are you awesome at? What is your STEM superpower',
     imageURL: 'https://mysciencemay.s3.amazonaws.com/MSM_Friday_2.jpg',
@@ -50,6 +56,7 @@ export default [
   {
     day: 'Monday',
     date: '16th',
+    dataDate: '2022-05-16',
     title: 'Your work in Emojis',
     detail: 'Let\'s see you work in Emojis!',
     imageURL: 'https://mysciencemay.s3.amazonaws.com/MSM_Monday_3.jpg',
@@ -58,6 +65,7 @@ export default [
   {
     day: 'Wednesday',
     date: '18th',
+    dataDate: '2022-05-18',
     title: 'Favourite Jargon',
     detail: 'What is your favourite Jargon? What does it mean?',
     imageURL: 'https://mysciencemay.s3.amazonaws.com/MSM_Wednesday_3.jpg',
@@ -66,6 +74,7 @@ export default [
   {
     day: 'Friday',
     date: '20th',
+    dataDate: '2022-05-20',
     title: 'Favourite Paper',
     detail: 'What is your favourite paper? What did you learn while reading/writing it?',
     imageURL: 'https://mysciencemay.s3.amazonaws.com/MSM_Friday_3.jpg',
@@ -74,6 +83,7 @@ export default [
   {
     day: 'Monday',
     date: '23rd',
+    dataDate: '2022-05-23',
     title: 'Dream Collaborator',
     detail: 'Who would be on your dream collaboration team? Why?',
     imageURL: 'https://mysciencemay.s3.amazonaws.com/MSM_Monday_4.jpg',
@@ -82,6 +92,7 @@ export default [
   {
     day: 'Wednesday',
     date: '25th',
+    dataDate: '2022-05-25',
     title: 'Callout for collaborators',
     detail: 'What collaborations are you looking for at the moment?',
     imageURL: 'https://mysciencemay.s3.amazonaws.com/MSM_Wednesday_4.jpg',
@@ -90,6 +101,7 @@ export default [
   {
     day: 'Friday',
     date: '27th',
+    dataDate: '2022-05-27',
     title: 'Best thing about collaborating',
     detail: 'What do you think the best thing is about collaborating?',
     imageURL: 'https://mysciencemay.s3.amazonaws.com/MSM_Friday_4.jpg',

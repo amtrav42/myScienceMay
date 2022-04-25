@@ -39,7 +39,7 @@ function IndexPage() {
         </Flex>
       </Box>
       <Flex justifyContent="center" align="center" direction="column">
-        <Heading as="h3" textAlign="center" fontWeight="bold" fontSize="xl" p="5">
+        <Heading as="h3" textAlign="center" fontWeight="bold" fontSize="2xl" p="5">
           Detailed Schedule
         </Heading>
       </Flex>
@@ -47,7 +47,7 @@ function IndexPage() {
         <Schedule />
       </Container>
       <div>
-        <Heading as="h3" textAlign="center" fontWeight="bold" fontSize="xl" p="5">
+        <Heading as="h3" textAlign="center" fontWeight="bold" fontSize="2xl" p="5">
           FAQs
         </Heading>
         <Container border="solid 1px #00B2A9" borderRadius="5px">

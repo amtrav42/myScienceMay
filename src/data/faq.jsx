@@ -41,7 +41,7 @@ export default [
   },
   {
     question: 'How much does it cost?',
-    answer: 'For you, it costs nothing! For us there is the cost of hosting the webiste ($AU 3/mo), domain registration (about $AU 20/yr) and getting the social media collatorel designed. This has been done on a shoestring budget, and I think looks pretty good considering! Avid Research also schedule their posts using Later ($US 15/mo).',
+    answer: 'For you, it costs nothing! For us there is the cost of hosting the webiste ($AU 3/mo), domain registration (about $AU 20/yr) and getting the social media collateral designed. This has been done on a shoestring budget, and I think looks pretty good considering! Avid Research also schedule their posts using Later ($US 15/mo).',
   },
   {
     question: 'Who created the style and branding?',

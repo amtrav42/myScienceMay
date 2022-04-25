@@ -16,7 +16,7 @@ function IndexPage() {
       <header>
 
         <Flex justify="center">
-          <Image src="https://mysciencemay.s3.amazonaws.com/monthPrompts.png" alt="List of prompts for SciComm September, see below for details" fit="contain" margin={[3, 4, 5]} boxSize={['300px', '400px', '500px']} />
+          <Image src="https://mysciencemay.s3.amazonaws.com/PromptsRectangular.png" alt="List of prompts for SciComm September, see below for details" fit="contain" margin={[3, 4, 5]} boxSize={['300px', '450px', '550px']} />
 
         </Flex>
       </header>

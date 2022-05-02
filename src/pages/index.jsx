@@ -2,6 +2,7 @@ import * as React from 'react';
 import {
   Heading, Container, Text, Link, Flex, Image, Box,
 } from '@chakra-ui/react';
+import ReactAudioPlayer from 'react-audio-player';
 import Footer from '../components/footer/footer';
 import Faq from '../components/faq/faq';
 import Schedule from '../components/schedule/schedule';
@@ -38,6 +39,16 @@ function IndexPage() {
           <Link href="https://twitter.com/avid_podcast" color="white" m="3" fontWeight="bold" fontSize="2xl">@avid_podcast</Link>
         </Flex>
       </Box>
+      <Flex justifyContent="center" alignItems="center" background="#F98E4A">
+        <Heading as="h4" textAlign="center" fontWeight="bold" fontSize="xl" p="5" color="white">
+          Listen to the special episode:
+        </Heading>
+        <ReactAudioPlayer
+          src="https://avidresearchepisodes.s3.amazonaws.com/2022_MyScienceMay.mp3"
+          autoPlay
+          controls
+        />
+      </Flex>
       <Flex justifyContent="center" align="center" direction="column">
         <Heading as="h3" textAlign="center" fontWeight="bold" fontSize="2xl" p="5">
           Detailed Schedule

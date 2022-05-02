@@ -23,7 +23,9 @@
     "gatsby": "^4.10.1",
     "gatsby-plugin-manifest": "^4.12.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-audio-player": "^0.17.0",
+    "react-dom": "^17.0.1",
+    "react-h5-audio-player": "^3.8.4"
   },
   "devDependencies": {
     "eslint": "^8.11.0",
